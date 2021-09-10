@@ -9,4 +9,7 @@ function add(first: number, second: number): number {
     return result;
 }
 
-add(23, 45);
+const viewAdd:number =add(23, 45);
+
+console.log(viewAdd);
+
