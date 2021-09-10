@@ -1,3 +1,10 @@
 "use strict";
-const var_one = 'TypeScript';
-console.log('Hello ', var_one);
+let money = 88;
+let honey = 'O my sweet heart';
+let kony = true;
+const age = 21;
+function add(first, second) {
+    const result = first + second;
+    return result;
+}
+add(23, 45);
