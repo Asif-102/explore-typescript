@@ -7,4 +7,5 @@ function add(first, second) {
     const result = first + second;
     return result;
 }
-add(23, 45);
+const viewAdd = add(23, 45);
+console.log(viewAdd);
